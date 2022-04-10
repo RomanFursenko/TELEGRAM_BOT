@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Украина не роzzия</title>
+</head>
+<body>
+<h1>Объявления</h1>
+    {%  for fa in Fas %}
+    <div>
+        <h2>{{ fa.title }}</h2>
+        <p>{{ fa.content }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
