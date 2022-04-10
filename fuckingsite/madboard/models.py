@@ -1,4 +1,5 @@
 from django.db import models
+
 class Mb(models.Model):
     title = models.CharField(max_length=50)
     content = models.TextField(null=True, blank=True)

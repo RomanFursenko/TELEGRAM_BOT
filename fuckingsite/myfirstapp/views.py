@@ -1,7 +1,10 @@
-from django.shortcuts import render
-
 from django.http import HttpResponse
+from django.template import loader
+
+from .models import Fa
 
 def index(request):
-    return HttpResponse('ЕЩЕ РАЗ ПОВТОРЯЮ: Русскиий военный корабыль - ИДИ НА ХУЙ!!!')
-
+    template = loader.get_template('myfirstapp/index.html')
+    mfs = Mb.objects.order_by('-published')
+    context = {'mfs':mfs}
+    return HttpResponse(template.render(context, request))
