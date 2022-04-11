@@ -1,0 +1,19 @@
+C:\MY_PROJECT\fuckingsite - Path project
+
+C:\MY_PROJECT>venv\Scripts\activate  - Virtual Env.
+..\venv\Scripts\activate - run venv.
+
+python manage.py runserver - start development server
+
+admin:admin
+
+http://127.0.0.1:8000/admin/
+http://127.0.0.1:8000/madboard/
+http://127.0.0.1:8000//myfirstapp/
+http://127.0.0.1:8000/mysecondapp/
+
+
+
+
+
+
